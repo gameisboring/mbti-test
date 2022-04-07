@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-center">
     <h1>{{ page }}. {{ question }}</h1>
-    <Button
+    <ButtonNew
       v-for="(item, index) in answers"
       styleType="pink"
       :key="index"

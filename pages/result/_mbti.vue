@@ -3,7 +3,7 @@
     <img :src="result[mbti].img" :alt="result[mbti]" />
     <h1>{{ result[mbti].title }}</h1>
     <p v-html="result[mbti].desc"></p>
-    <Button text="다시 테스트하기!" :clickEvent="resetPage" />
+    <ButtonNew text="다시 테스트하기!" :clickEvent="resetPage" />
   </main>
 </template>
 <script>

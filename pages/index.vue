@@ -7,7 +7,7 @@
     />
     <h1>나와 비슷한 유형 찾기</h1>
     <h2>나와 닮은 @@@은 누구일까요?</h2>
-    <Button text="테스트 시작" styleType="blue" :clickEvent="startTest" />
+    <ButtonNew text="테스트 안시작" styleType="" :clickEvent="startTest" />
   </main>
   <!-- 질문 페이지 -->
   <main v-else-if="page < 5">
